@@ -274,7 +274,7 @@ if __name__ == '__main__':
     checkpoint = torch.load(os.path.join(args.checkpoint_dir, file_dir))
     first_epoch = checkpoint['epoch']
     maxAcc = checkpoint['maxAcc']
-    print('testing: the best model has:', str(maxAcc), 'accuracy!')
+    print('testing: the best model has:', str(maxAcc), 'accuracy on validation set!')
     f_net.load_state_dict(checkpoint['f_net_best'])
     print('---------------------------------------------')
 
