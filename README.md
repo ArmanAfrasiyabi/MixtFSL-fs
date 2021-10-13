@@ -4,9 +4,9 @@ This repository contains the pytorch implementation of Mixture-based Feature Spa
 [presentation](https://lvsn.github.io/MixtFSL/assets/MixFSL_Poster.pdf). This paper introduces Mixture-based Feature Space Learning (MixtFSL) for obtaining a rich and robust feature representation in the context of few-shot image classification. Previous works have proposed to model each base class either with a single point or with a mixture model by relying on offline clustering algorithms. In contrast, we propose to model base classes with mixture models by simultaneously training the feature extractor and learning the mixture model parameters in an online manner. This results in a richer and more discriminative feature space which can be employed to classify novel examples from very few samples. 
  
 ## Dependencies
-1. numpy
+1. Numpy
 2. Pytorch 1.0.1+ 
-3. torchvision 0.2.1+
+3. Torchvision 0.2.1+
 4. PIL
 
 
